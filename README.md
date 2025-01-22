@@ -5,7 +5,8 @@
 
 Интеллектуальный чат-интерфейс с поддержкой различных языковых моделей (LLM) и интеграцией с VLLM/Ollama серверами.
 
-![Скриншот интерфейса](<img width="1439" alt="Screenshot 2025-01-22 at 8 40 27 PM" src="https://github.com/user-attachments/assets/bf366a1f-b647-4c34-ba3b-77e1b6951b7c" />)
+<img width="1439" alt="Screenshot 2025-01-22 at 8 40 27 PM" src="https://github.com/user-attachments/assets/e220b8db-599f-458d-a5eb-815864dfe256" />
+
 
 ## ✨ Особенности
 
