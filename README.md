@@ -1,6 +1,6 @@
 # vllm-ollama_app
 
-[![Python 3.9+](https://img.shields.io/badge/Python-3.9%2B-blue.svg)](https://www.python.org/)
+[![Python 3.9+](https://img.shields.io/badge/Python-3.11%2B-blue.svg)](https://www.python.org/)
 [![Streamlit](https://img.shields.io/badge/Streamlit-1.39.0-FF4B4B.svg)](https://streamlit.io/)
 
 Интеллектуальный чат-интерфейс с поддержкой различных языковых моделей (LLM) и интеграцией с VLLM/Ollama серверами.
