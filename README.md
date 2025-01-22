@@ -2,11 +2,10 @@
 
 [![Python 3.9+](https://img.shields.io/badge/Python-3.9%2B-blue.svg)](https://www.python.org/)
 [![Streamlit](https://img.shields.io/badge/Streamlit-1.23.1-FF4B4B.svg)](https://streamlit.io/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 Интеллектуальный чат-интерфейс с поддержкой различных языковых моделей (LLM) и интеграцией с VLLM/Ollama серверами.
 
-![Скриншот интерфейса](https://via.placeholder.com/800x400.png?text=Chat+Interface+Preview)
+![Скриншот интерфейса](<img width="1439" alt="Screenshot 2025-01-22 at 8 40 27 PM" src="https://github.com/user-attachments/assets/bf366a1f-b647-4c34-ba3b-77e1b6951b7c" />)
 
 ## ✨ Особенности
 
@@ -22,3 +21,24 @@
 ```bash
 git clone https://github.com/ваш-username/ваш-репозиторий.git
 cd ваш-репозиторий
+```
+2. Настройте базу данных:
+```bash
+CREATE DATABASE bot_app;
+CREATE USER 'chat_user'@'localhost' IDENTIFIED BY 'password';
+GRANT ALL PRIVILEGES ON chat_app.* TO 'chat_user'@'localhost';
+```
+3. Запуск:
+```bash
+streamlit run nia_for_pres.py
+```
+4. Запуск Ollama:
+```bash
+docker run -d -p 11434:11434 ollama/ollama
+ollama pull llama2
+ollama serve
+```
+5. Запуск VLLM:
+```bash
+docker run -d -p 8002:8002 vllm/vllm-openai --model Qwen/Qwen2-beta-7B-Chat
+```
